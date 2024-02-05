@@ -1,0 +1,557 @@
+*
+{
+border:0;
+margin:0;
+list-style-type:none;
+text-decoration:none;
+padding:0;
+outline:none;
+font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper
+{
+    width:100%;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+}
+.source
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.row1
+{
+ float: left;
+ background-color: #8dc63f;
+ padding: 8px 0;
+
+}
+.row1 p
+{
+    float: left;
+    color: #fff;
+}
+.search
+{
+    width: 50%;
+	float: left;
+	margin-left: 3%;
+	height: 38px; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+100 */
+	background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.search select
+{
+    width:14%;
+    padding-left: 1%;
+   
+    border-right: 1px solid #c2c2c2;
+}
+.search input
+{
+    width: 78%;
+    padding:0 1% ;
+}
+.search select, .search input
+{
+    background: none;
+    height: 39px;
+}
+.row1 ul, .row2-col1 ul
+{
+ float: right;  
+ margin:10px 0; 
+}
+.row1 ul li, .row2-col1 ul li
+{
+    display: inline-block;
+}
+.row1 ul li a
+{
+    font-size: 16px;
+    color: #fff;
+    padding: 0 8px;
+}
+.row1 ul li select
+{
+  background: none;
+  color: #fff;
+}
+.row1 ul li a i
+{
+  color: #8b5500;
+  padding:8px 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.row2 {
+	padding: 28px 0;
+}
+.row2 a img {
+	float: left;
+}
+.row2-col1 {
+	width: 60%;
+	float: right;
+}
+.row2-col1 ul:nth-child(2) {
+	width: 100%;
+	background: #333;
+}
+.row2-col1 ul li a span
+{
+    background-color: #333;
+    border-radius: 50%;
+    padding: 10px 2px 10px 3px;
+    color: #fff;
+}
+.row2-col1 ul li a {
+	padding: 27px 12px;
+	color: #333;
+	font-size: 16px;
+}
+.row2-col1 ul:nth-child(2) li a {
+	color: #fff;
+	display: block;
+	border-right: 1px solid #000;
+	padding: 27px;
+}
+.row2-col1 ul li a i {
+	margin-right: 10px;
+}
+.row2-col1 ul:nth-child(2) li:last-child a {
+	border: 0;
+}
+.row3 {
+	background: url(images/header.jpg) no-repeat center top;
+	padding: 106px;
+	background-size: cover;
+}
+.row3-col2 {
+	width: 53%;
+	margin-left: 5%;
+	float: left;
+}
+.row3-col2 h2 {
+	font-size: 80px;
+	color: #000;
+	text-shadow: 2px 2px #eeebe9;
+}
+.row3-col2 p {
+	font-size: 16px;
+	text-shadow: 2px 2px #eeebe9;
+	padding-top: 33px;
+	color: #000;
+}
+.row3-col2 ul li {
+	background-color: #8dc63f;
+	float: left;
+	border-radius: 20px;
+	width: 257px;
+	height: 55px;
+	margin-top: 51px;
+	text-align: center;
+}
+.row3-col2 ul li a {
+	font-size: 21px;
+	text-shadow: 2px 2px #699f2a;
+	color: #fff;
+	line-height: 53px;
+}
+.row4 {
+	padding: 10px 0;
+	background: #786a68;
+}
+.row4 h3 {
+	float: left;
+	line-height: 38px;
+	margin: 0 20px;
+	color: #fff;
+}
+.row4 ul li {
+	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+100 */ linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border: 1px solid #999;
+	padding: 5px 10px;
+	float: left;
+	line-height: 27px;
+	margin: 0 5px;
+}
+.row4 ul li input[type="color"] {
+	height: 23px;
+}
+.row4 ul li:nth-child(2), .row4 ul li:nth-child(6) {
+	width: 8.5%;
+}
+.row4 ul li:nth-child(2) input, .row4 ul li:nth-child(6) input {
+	width: 47%;
+	float: left;
+	height: 27px;
+	background: none;
+}
+.row4 ul li:nth-child(2) span {
+	float: left;
+}
+.row4 ul li span {
+	float: left;
+}
+.row4 ul li select
+{
+	background: none;
+}
+.row5 {
+	text-align: center;
+}
+.row5 .box:nth-child(4n) {
+	margin-right: 0;
+}
+.box {
+	width: 23.6%;
+	margin-right: 1%;
+	background: #f0f0f0;
+	border: 1px solid #c6c6c6;
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.box-drop
+{
+	width: 300px;
+	height: 396px;
+	background-color: #181818;
+	position: absolute;
+	right: 100%;
+	top: 0;
+	transition: linear all 1s;
+}
+.box:hover .box-drop 
+{
+	right: 0%;
+}
+.box-drop-col1
+{
+	width: 223px;
+	height: auto;
+	margin-left: 30px;
+	
+}
+.box-drop-col1 h2
+{
+	font-size:22px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #FFFFFF;
+	margin:10px 0 7px;
+	
+}
+.box-drop-col1 p
+{
+	font-size: 10px;
+	color: #fff;
+	line-height: 14px;
+}
+.box-drop-col2
+{
+	width: auto;
+	height: 41px;
+}
+.box-drop-col2 h3
+{
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	margin: 11px 45px;
+	
+}
+.box-drop-col2 ul
+{
+	color: #8dc63f;
+	margin:10px 46px 0 0px;
+	display: inline-block;
+}
+.box-drop-col2 ul li
+{
+	display: inline-block;
+}
+.box-drop-col2 ul span
+{ 
+	color: #8dc63f;
+	
+}
+.col-r
+{
+	height: 61px;
+	width:auto;
+}
+.col-r h3 
+{
+	font-size: 25px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	text-align: center;
+	margin-top: -12px;
+}
+.col-r h3 span
+{
+	font-size: 25px;
+	color: #8dc63f;
+}
+.col-r ol li, .col-r ul li
+{
+	float: left;
+	margin-left: 10px;
+}
+.col-r ol li a, .col-r ul li
+{
+	font-size: 18px;
+  color: #fff;
+  line-height: 19px;
+  float: left;
+
+}
+.col-r a span
+{
+	font-size:18px;
+	color: #7daf39;
+	
+}
+.box ul li {
+	display: inline-block;
+}
+.box ul li a img {
+	width: 50px;
+	height: 50px;
+}
+.box ul:nth-child(3) {
+	margin: 10px 0;
+}
+.box ul:nth-child(3) li {
+	border: 0;
+	margin: 10px 15px;
+}
+.box ul:nth-child(3) li a {
+	color: #333;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.box ul:nth-child(3) li a:hover {
+	background: #8dc63f;
+	color: #fff;
+}
+.tri {
+	height: 0;
+	width: 0;
+	border-top: 80px solid #8dc63f;
+	border-right: 80px solid transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.tri ul li
+{
+	display: inline-block;
+}
+.tri ul li a
+{
+	color: #fff;
+	font-size:13px;
+}
+.row6
+{
+ border-top: 3px solid #636363;
+ text-align: center;
+ margin-top: 92px;
+}
+.row6 h2
+{
+	display: inline-block;
+	background-color: #fff;
+	font-size:60px;
+	color: #333333;
+	margin: -60px;
+	padding: 0 99px;
+}
+.row6 h2 span
+{
+	color: #8dc63f;
+}
+.row7
+{
+	height:223px;
+position: relative;
+}
+.row7 ul li
+{
+	display: inline-block;
+}
+.row7 ul li a img
+{
+	border-radius: 100%;
+	border: 3px solid #acacac;
+	box-shadow:0 0 10px #333;
+}
+.asad
+{
+	width: 421px;
+	height: 439px;
+	background: url(images/left.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.asada
+{
+	width: 421px;
+	height: 439px;
+	background: url(images/right.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.row8 ul li
+{
+ display: inline-block;	
+ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ margin-bottom: 90px;
+}
+.row9 {
+	background: rgb(51, 51, 51);
+	padding: 50px;
+}
+.row9-col {
+	width: 38.8%;
+	float: left;
+}
+.row9-col h2 {
+	font-size: 30px;
+	color: #fff;
+}
+.row9-col p {
+	font-size: 16px;
+	color: #b4b4b4;
+	margin-bottom: 40px;
+}
+.row9-col a {
+	padding: 12px 20px;
+	background-color: #000;
+	color: #fff;
+}
+.row9-col1 {
+	width: 60%;
+	float: right;
+}
+.row9-col1 h3 {
+	font-size: 30px;
+	color: #fff;
+}
+.row9-col1 ul li, .row9-col1 ol li {
+	display: inline-block;
+	margin-top: 14px;
+}
+.alpha
+{
+	width: 48%;
+  margin-right: 1.5%;
+  float: left;
+}
+.alpha h4 {
+	font-size: 18px;
+	color: #fff;
+	margin: 9px 2px;
+}
+.alpha input {
+	width: 100%;
+	height: 42px;
+	color: #fff;
+	background-color: #1d1d1d;
+	border: 2px solid #000000;
+}
+.row9-col2 {
+	float: left;
+}
+.alpha-area {
+	width: 100%;
+	height: 124px;
+	color: #fff;
+	padding: 15px 0;
+	background-color: #1d1d1d;
+}
+.alpha-area textarea {
+	width: 100%;
+	height: 100px;
+	background: none;
+	color: #fff;
+	resize:none;
+	float: left;
+}
+.alpha-area input {
+	width: 100px;
+	height: 30px;
+	background: #fff;
+	color: #000;
+	float: right;
+}
+.row9-col1 ol {
+	margin-top: 20px;
+}
+.row9-col1 ol h6 {
+	font-size: 30px;
+	color: #fff;
+	margin-top: 50px;
+}
+.row9-col1 ol li a img {
+	opacity: 0.3;
+  transition: linear 1s opacity
+
+}
+.row9-col1 ol li img:hover{
+	opacity:1;
+   
+}
+.row9-col1 ul li a {
+	margin: 0px 0 0 0px;
+	padding: 7px 11px;
+	background-color: #fff;
+	color: #000;
+}
+.row10
+{
+background-color: #1d1d1d;
+padding: 20px;
+}
+.row10-col
+{
+	float: left;
+
+}
+.row10-col ul
+{
+	padding-left: 20px;
+	
+}
+.row10-col ul li, .row10-col1 ol li
+{
+	display: inline-block;
+	color: #fff;
+	padding: 7px;
+}
+.row10-col ul li a
+{
+	color: #fff;
+	font-size:14px;
+	}
+	.row10-col1 
+	{
+		float: right;	
+	}
+	.row10-col1 ol li 
+	{
+		background: url(images/line_15.png) no-repeat right;	
+	}
+	.row10-col1 ol li a
+	{
+	   color: #fff;
+	}  
+	
+	
